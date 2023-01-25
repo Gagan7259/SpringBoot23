@@ -1,5 +1,6 @@
 package com.product.model;
 
+import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -7,14 +8,22 @@ import jakarta.persistence.Id;
 
 @Entity
 public class Product {
+
 	private Integer id;
+	@Column
 	private String name;
-	private double price;
+	@Column
+
+	private long price;
+	@Column
+
 	private Integer qty;
+	@Column
+
 	private String info;
 
 	@Id
-	@GeneratedValue(strategy=GenerationType.IDENTITY)
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	public Integer getId() {
 		return id;
 	}
@@ -31,11 +40,12 @@ public class Product {
 		this.name = name;
 	}
 
-	public double gestPrice() {
+	public long gestPrice() {
 		return price;
 	}
+	
 
-	public void setPrice(double price) {
+	public void setPrice(long price) {
 		this.price = price;
 	}
 

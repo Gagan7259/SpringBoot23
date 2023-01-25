@@ -1,0 +1,15 @@
+{
+    "configurations": [
+    
+        {
+            "type": "java",
+            "name": "Spring Boot-ProductApiApplication<Product-CRUD-operations>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.studentapi.ProductApiApplication",
+            "projectName": "Product-CRUD-operations",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}

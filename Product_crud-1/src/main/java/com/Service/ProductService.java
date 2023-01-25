@@ -5,8 +5,8 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.Entity.Product;
 import com.Repository.ProductRepository;
+import com.model.Product;
 
 @Service
 public class ProductService {
