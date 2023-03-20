@@ -1,0 +1,36 @@
+class -- class is a template to construct objects
+
+
+OOPS:-OBJECT ORIENTED PROGRAMING IN JAVA
+1.Abstraction
+2.Encapsulation
+3.Inheritence
+4.PolymorPhism
+      Main thing to know A.CLASS
+                         B.Metod Signature
+                         C.THIS keyword
+                         D.Object 
+                         E.Constructor
+                         F.Method Signature
+                         
+                         G.OverLoading
+                         E.overRiding
+                         
+Data Hiding:-Using private Keyword Out side packages wont accept data only one way to acces data by using GETTERS and SETTERS
+Advantage:- we can achive Security
+
+MEthodsignature:-name of the method and arguments list only
+
+4 pillers of OOPS Conmcept
+Abstraction:-
+Inheritance:- reusable code 
+               reuse the functionality and adding new features
+               reusing the functions and methods one class to another class and adding new features
+               simple Inheritance -reuse code in one class to another class
+               multilevel inheritance-- reuse code one class to more other classes
+               hyrarcial inheritance
+              
+Encapsulation:- 
+PolyMorphism :-
+
+                               
